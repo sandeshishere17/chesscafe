@@ -1,0 +1,37 @@
+[
+  
+ 
+  {
+    "PuzzleId": "00sHx",
+    "FEN": "q5nr/1ppknQpp/3p4/1P2p3/4P3/B1PP1b2/B5PP/5K2 w - - 1 19",
+    "Moves": ["Be6+ ", "Qf8#"],
+    "Rating": 1760,
+    "RatingDeviation": 80,
+    "Popularity": 83,
+    "NbPlays": 72,
+    "Themes": ["mate", "mateIn2", "middlegame", "short","kd8"],
+    "OpeningTags": ["Italian_Game", "Italian_Game_Classical_Variation"],
+    "PuzzleLink": "https://lichess.org/yyznGmXs/black#34"
+  },
+  {
+    "PuzzleId": "01sHx",
+    "FEN": "r1bq2r1/b4pk1/p1pp1p2/1p2pP2/1P2P1PB/3P4/1PPQ2P1/R3K2R w - - 0 38",
+    "Moves": ["Qh6+"," Bxf6#"],
+    "Rating": 1860,
+    "RatingDeviation": 80,
+    "Popularity": 83,
+    "NbPlays": 72,
+    "Themes": ["mate", "mateIn2"],
+    "OpeningTags": ["Italian_Game", "Italian_Game_Classical_Variation"],
+    "PuzzleLink": "https://lichess.org/yyznGmXs/black#34"
+}
+
+  
+  
+  
+  
+  
+  
+  
+
+]

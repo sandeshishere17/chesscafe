@@ -1,0 +1,61 @@
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Menu Section */
+.menu {
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #DAA520; /* Gold color for headings */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-item {
+    background-color: #444; /* Dark background */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    color: #DAA520; /* Gold color for item titles */
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+.menu-item:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #DAA520; /* Gold shadow on hover */
+}
+
+.menu-item p:last-child {
+    font-weight: bold;
+    color: #FFD700; /* Lighter gold for price */
+}

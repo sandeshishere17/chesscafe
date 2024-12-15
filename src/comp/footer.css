@@ -1,0 +1,118 @@
+/* Footer container */
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Footer section */
+.footer-section {
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+}
+
+/* Footer section headings */
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #DAA520; /* Gold color for headings */
+    font-size: 24px;
+}
+
+/* Footer section paragraphs, lists, and forms */
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Footer section list */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer section list items */
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer section list links */
+.footer-section ul li a {
+    color: #DAA520; /* Gold color for links */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* Footer section list links hover effect */
+.footer-section ul li a:hover {
+    color: #FFD700; /* Lighter gold on hover */
+    text-decoration: underline;
+}
+
+/* Contact form */
+.footer-section.contact-form input[type="email"],
+.footer-section.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DAA520; /* Gold border */
+    background-color: #444; /* Darker background for input fields */
+    color: #fff; /* White text inside input */
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-section.contact-form input[type="email"]::placeholder,
+.footer-section.contact-form textarea::placeholder {
+    color: #DAA520; /* Gold color for placeholder */
+}
+
+/* Contact form button */
+.footer-section.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DAA520; /* Gold background for button */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+}
+
+/* Contact form button hover effect */
+.footer-section.contact-form button:hover {
+    background-color: #FFD700; /* Lighter gold on hover */
+}
+
+/* Response message styling */
+.footer-section.contact-form p {
+    color: #DAA520; /* Gold color for response message */
+    margin-top: 10px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px;
+    margin-top: 20px;
+    color: #DAA520; /* Gold color for footer bottom text */
+}

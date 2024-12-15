@@ -1,0 +1,131 @@
+																
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  
+
+.sandwich_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sandwich-image{
+    width: 100%;
+    max-height: 200px; /* Fixed max height for consistency */
+    object-fit: cover; /* Ensure the image covers the whole area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+}
+.sandwich-item{
+    background-color: #444; /* Dark background */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    border: 1px solid #555;
+}
+.sandwich-item:hover{
+    background-color: #555; /* Slightly lighter background on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.name{
+    font-size: 24px;
+    color: #654321; /* Dark brown */
+    margin-bottom: 10px;
+    text-align: center;
+}
+.desc{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark grey */
+}
+.pri{
+    font-size: 18px;
+    font-weight: bold;/* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+    }
+    
+    /* Sandwich Container */
+    .sandwich_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    
+    /* Sandwich Item */
+    .sandwich-item {
+        background-color: #f0d9b5; /* Light brown background */
+        border: 2px solid #654321; /* Dark brown border */
+        border-radius: 8px;
+        padding: 20px;
+        margin: 15px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        text-align: center;
+    }
+    
+    .sandwich-item:hover {
+        background-color: #e6c497; /* Slightly darker brown on hover */
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Sandwich Image */
+    .sandwich-image {
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Ensures the image scales proportionally */
+        border-radius: 10px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #666; /* Match the coffee item image border */
+    }
+    .sandwich-item h1 {
+        font-size: 22px;
+        color:  #DAA520; /* Gold color for headings */
+        margin-bottom: 10px;
+      }
+    .sandwich-item p {
+        font-size: 16px;
+        color: #ddd;
+        margin: 10px 0;
+      }
+      
+    
+  
+    
+   
+    
+    /* Sandwich Price */
+    .pri {
+        font-size: 18px;
+    font-weight: bold;
+    color: #FFD700; /* Lighter gold for price */
+    margin-top: 10px;
+    }
+    
+    
+}
+
+

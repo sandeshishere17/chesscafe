@@ -1,0 +1,80 @@
+/* Container for the entire view */
+.vieworder-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 80% opacity */
+    color: #ffffff; /* White text color */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Slightly more visible shadow */
+}
+
+/* Container for each order summary */
+.order-summary {
+    border: 1px solid rgba(255, 215, 0, 0.5); /* Gold border with 50% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9); /* White with 90% opacity for each order */
+    color: #000000; /* Black text color for readability */
+    margin-bottom: 20px; /* Space between order summaries */
+}
+
+/* Styling for order heading */
+.order-summary h2 {
+    margin-top: 0;
+    color: #ffd700; /* Gold color for headings */
+}
+
+/* Styling for order paragraph text */
+.order-summary p {
+    margin: 5px 0;
+    color: #333333; /* Dark gray color for text */
+}
+
+/* Styling for items list */
+.items-list {
+    border-top: 1px solid rgba(255, 215, 0, 0.3); /* Gold border with 30% opacity */
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Styling for individual items */
+.item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3); /* Gold border with 30% opacity */
+}
+
+/* Ensure labels and values are aligned horizontally */
+.item p {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Add spacing between labels and values */
+.item p strong {
+    margin-right: 10px;
+}
+
+/* Style for total bill and order date */
+.order-summary p:last-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style for bill summary at the top */
+.bill-summary {
+    border: 1px solid rgba(255, 215, 0, 0.5); /* Gold border with 50% opacity */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(58, 47, 47, 0.9); /* White with 90% opacity */
+    color: #000000; /* Black text color for better readability on white background */
+    margin-bottom: 30px; /* Space between bill summary and order summaries */
+}
+
+/* Make sure to handle responsiveness */
+@media (max-width: 768px) {
+    .order-summary {
+        margin-bottom: 20px; /* Adjust spacing for smaller screens */
+    }
+}

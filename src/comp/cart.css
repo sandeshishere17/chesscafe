@@ -1,0 +1,100 @@
+.cart-container {
+    padding: 20px;
+    background-color: #444; /* Dark background */
+    color: #fff; /* White text */
+    border: 1px solid #DAA520; /* Gold border */
+    border-radius: 8px; /* Rounded corners */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #555; /* Slightly lighter dark background */
+    border: 1px solid #DAA520; /* Gold border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+
+.cart-item:hover {
+    background-color: #666; /* Slightly lighter background on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #DAA520; /* Gold shadow on hover */
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #DAA520; /* Gold color for titles */
+}
+
+.cart-item-details p {
+    margin: 5px 0;
+    color: #FFD700; /* Lighter gold for details */
+}
+
+.cart-item-details input {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #DAA520; /* Gold border */
+    background-color: #333; /* Dark input background */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.cart-item-details button {
+    padding: 5px 10px;
+    border: 1px solid #DAA520; /* Gold border */
+    background-color: #333; /* Dark button background */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.cart-item-details button:hover {
+    background-color: #DAA520; /* Gold background on hover */
+    color: #000; /* Black text on hover */
+}
+
+.cart-total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #DAA520; /* Gold color */
+    text-align: right; /* Align total to the right */
+}
+
+.cart-total h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #DAA520; /* Gold color */
+}
+
+.cart-total button {
+    padding: 10px 20px;
+    border: 1px solid #DAA520; /* Gold border */
+    background-color: #333; /* Dark button background */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s, color 0.2s;
+    margin-top: 10px;
+}
+
+.cart-total button:hover {
+    background-color: #DAA520; /* Gold background on hover */
+    color: #000; /* Black text on hover */
+}

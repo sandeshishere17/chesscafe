@@ -1,0 +1,84 @@
+/* Chess Puzzle container */
+.chess-puzzle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #141111; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Title */
+.chess-puzzle-container h1 {
+    color: #2E2E2E; /* Dark color for title */
+}
+
+/* Puzzle info */
+.puzzle-info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.turn-info {
+    font-weight: bold;
+    color: #DAA520; /* Gold color for turn indicator */
+}
+
+/* Content container */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Move list container */
+.move-list-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Chessboard container */
+.chessboard-container {
+    flex: 2;
+}
+
+/* Moves list */
+.move-list-container h2 {
+    color: #2E2E2E; /* Dark color for moves title */
+}
+
+.user-move {
+    color: #2E2E2E;
+    font-weight: bold;
+}
+
+/* Button container */
+.button-container {
+    margin-top: 20px;
+}
+
+.check-solution-button, .refresh-puzzle-button {
+    background-color: #2E2E2E; /* Dark gray background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.check-solution-button:hover, .refresh-puzzle-button:hover {
+    background-color: #DAA520; /* Gold color on hover */
+}
+
+/* Error and loading messages */
+.error-message, .loading-message {
+    font-size: 1.2em;
+    color: #DAA520;
+    margin-top: 20px;
+}

@@ -1,0 +1,153 @@
+/* Container */
+.navbar {
+    height: 60px;
+    background-color: #2E2E2E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 3px solid #DAA520;
+}
+
+/* Logo */
+.navbar-logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #DAA520;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation */
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: background 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #DAA520;
+    border-radius: 4px;
+}
+
+/* Cart icon container */
+.cart-icon-container {
+    display: flex;
+    align-items: center;
+    position: relative; /* Needed for positioning the badge */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Cart icon */
+.cart-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Cart badge */
+.cart-badge {
+    position: absolute;
+    top: -12px; /* Adjusted to move closer to the cart icon */
+    right: -8px; /* Adjusted to align with the right edge of the cart icon */
+    background-color: #DAA520; /* Gold background */
+    color: white;
+    border-radius: 50%; /* Circular shape */
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+/* Search */
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #DAA520;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-button:hover {
+    background-color: #FFD700;
+}
+
+/* Popup message */
+.popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2E2E2E;
+    border: 2px solid #DAA520;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.popup-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-popup {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.navbar .logout-button {
+    background: none;
+    border: none;
+    color: #fff; /* Adjust as needed */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar .logout-icon {
+    margin-right: 8px;
+}
+.navbar-logo-img {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+

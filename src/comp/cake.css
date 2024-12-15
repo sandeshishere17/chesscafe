@@ -1,0 +1,63 @@
+/* Overall container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.cake-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cake item styling */
+.cake-item {
+    background-color: #444; /* Dark background */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    width: 280px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    border: 1px solid #555; /* Match the sandwich item border */
+}
+
+.cake-item:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Cake image styling */
+.cake-image {
+    width: 100%; /* Adjust to fit the container */
+    max-height: 200px; /* Fixed max height for consistency */
+    object-fit: cover; /* Ensure the image covers the whole area without distortion */
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #666; /* Match the sandwich item image border */
+}
+
+/* Cake name styling */
+.cake-name {
+    font-size: 24px;
+    color: #654321; /* Dark brown */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Cake description styling */
+.cake-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark grey */
+}
+
+

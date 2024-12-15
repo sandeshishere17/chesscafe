@@ -1,0 +1,42 @@
+/* thankyou.css */
+
+/* Ensure styles are unique to the ThankYou component */
+.thankyou-container-gold {
+    background-color: #fffaf0; /* Light golden background */
+    border: 2px solid #d4af37; /* Golden border */
+    color: #333; /* Dark text color for contrast */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.thankyou-container-gold h1 {
+    color: #d4af37; /* Golden text for heading */
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.thankyou-container-gold p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.thankyou-options .view-order-button {
+    background-color: #d4af37; /* Golden button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.thankyou-options .view-order-button:hover {
+    background-color: #c4a037; /* Darker shade of gold on hover */
+}
